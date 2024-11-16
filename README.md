@@ -4,7 +4,7 @@ ChatGPT Text Submission Application
 
 This is a simple Tkinter-based GUI application that allows users to interact with OpenAI's ChatGPT API. Users can enter prompts, submit them to ChatGPT, and view the responses in a separate window
 
-Getting Started
+# Getting Started
 1. Prerequisites
 Before running this application, make sure you have the following installed on your system:
 
@@ -16,7 +16,7 @@ Run the following command to install the required dependencies:
 
 pip install openai python-dotenv
 
-Setting Up the API Key
+# Setting Up the API Key
 1. Obtain an API Key
 Sign up or log in to OpenAI.
 Ensure you have purchased credits for your APIs.
@@ -29,7 +29,7 @@ Add the following line to the .env file, replacing your_api_key_here with your a
 
 OPENAI_API_KEY=your_api_key_here
 
-Code Breakdown
+# Code Breakdown
 1. Importing Libraries
 tkinter: The standard Python library used for creating graphical user interfaces (GUIs).
 openai: The library used to interact with the OpenAI API.
